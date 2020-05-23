@@ -323,7 +323,7 @@ export class GuiModel {
                             "type": "newButton",
                             "name": "NewActivity",
                             "icon": "fa-calendar",
-                            "color": "red",
+                            "color": "green",
                             "form": {
                                 "form": "AddActivityForm"
                             }
@@ -331,7 +331,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-calendar",
-                            "color": "red",
+                            "color": "orange",
                             "search": true,
                             "url": "/activity",
                             "page": "singleactivitypage"
