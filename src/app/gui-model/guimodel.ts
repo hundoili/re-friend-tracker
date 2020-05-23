@@ -49,6 +49,14 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id": "group",
+                            "type": "autocomplete",
+                            "name": "Group",
+                            "url": "/group",
+                            "form": "GroupForm",
+                            "width": 2
+                        },
+                        {
                             "id": "comment",
                             "type": "text",
                             "name": "Comments",
@@ -247,6 +255,16 @@ export class GuiModel {
                             "name": "NewGroup",
                             "icon": "fa-weixin",
                             "color": "green",
+                            "form": {
+                                "form": "GroupForm"
+                            }
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "search": true,
+                            "url": "/group",
                             "form": {
                                 "form": "GroupForm"
                             }
